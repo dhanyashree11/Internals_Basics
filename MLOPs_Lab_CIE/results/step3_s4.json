@@ -1,0 +1,8 @@
+{
+ "health_endpoint": "/ping",
+ "predict_endpoint": "/infer",
+ "port": 8080,
+ "health_response": {"status": "healthy", "model_loaded": true},
+ "test_input": {"track_count": 13, "sample_rate_khz": 108, "dynamic_range_db": 11.5, "is_mastered": 1},
+ "prediction": 70.9186574402277
+}

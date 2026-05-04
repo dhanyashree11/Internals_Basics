@@ -1,0 +1,23 @@
+{
+    "total_predictions": 50,
+    "mean_prediction": 0,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "track_count",
+            "train_mean": 19.04,
+            "live_mean": 32.36,
+            "shift": 13.32,
+            "threshold": 6.17,
+            "status": "ALERT"
+        },
+        {
+            "feature": "sample_rate_khz",
+            "train_mean": 121.6,
+            "live_mean": 164.82,
+            "shift": 43.22,
+            "threshold": 31.82,
+            "status": "ALERT"
+        }
+    ]
+}

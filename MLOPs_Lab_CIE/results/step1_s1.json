@@ -1,0 +1,22 @@
+{
+    "experiment_name": "soundforge-mix-quality-score",
+    "models": [
+        {
+            "name": "Ridge",
+            "mae": 5.787258499363577,
+            "rmse": 7.215243337685141,
+            "r2": 0.8543632606933833,
+            "mape": 8.933469332811198
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 8.136078054446822,
+            "rmse": 9.06262885492473,
+            "r2": 0.7702384401550533,
+            "mape": 12.760510647053383
+        }
+    ],
+    "best_model": "Ridge",
+    "best_metric_name": "rmse",
+    "best_metric_value": 7.215243337685141
+}
